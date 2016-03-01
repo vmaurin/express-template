@@ -1,6 +1,7 @@
 # express-template
 Minimal template for express.
-It is relying on node package.json for server side dependencies and on bower for client side dependencies
+It is relying on node package.json for server side dependencies and on bower for client side dependencies.
+The purpose is to have something more simple than the express generator and support different configuration according to an environment variable.
 
 ## Requirements
 
@@ -26,6 +27,18 @@ git config --global url."https://".insteadOf git://
 
 ## Usage
 
+For adding new server dependencies, use npm
+```
+npm install PACKAGE --save
+```
+
+For adding new client dependencies, use bower
+```
+bower install PACKAGE --save
+```
+All the client dependencies will go in public/js/deps, update .bowerrc to change this path
+
+For starting the application, use npm
 ```
   npm start
 ```
