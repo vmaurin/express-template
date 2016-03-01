@@ -1,0 +1,11 @@
+{
+  "name": "express-template",
+  "description": "Example with angular",
+  "authors": [
+    "vincent.maurin.fr@gmail.com",
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}

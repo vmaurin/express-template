@@ -1,0 +1,11 @@
+{
+  "name": "express-template",
+  "version": "0.1.0",
+  "description": "Minimal template for express.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.13.x"
+  },
+  "author": "vincent.maurin.fr@gmail.com",
+  "license": "MIT"
+}
