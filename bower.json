@@ -2,7 +2,7 @@
   "name": "express-template",
   "description": "Example with angular",
   "authors": [
-    "vincent.maurin.fr@gmail.com",
+    "vincent.maurin.fr@gmail.com"
   ],
   "license": "MIT",
   "dependencies": {
